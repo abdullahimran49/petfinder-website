@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+
+.navbar{
+    height: 70px;
+    background-color: white;
+    color: #6504B5;
+    display:flex;
+    align-items: center;
+    
+}
+.nav-logo{
+    height: 70px;
+    width: 132px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.logo{
+    background-image: url("petfinderlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 100%;
+    color:#6504B5;
+}
+.navtext-1{
+    margin-left: 50px;
+}
+.heart{
+    margin-left: 620px;
+}
+
+.navtext-3{
+    margin-left: 25px;
+}
+.arrow{
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Sign Up Conatiner Styling */
+.signup-container {
+    width: 800px;
+    padding: 4px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    height: 500px;
+    border-radius: 10px;
+}
+.head1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.fnamelname{
+    padding-left: 10px;
+    display: flex;
+}
+.lname{
+    padding-left: 30px;
+}
+
+.contenttext2{
+    display: flex;
+}
+.rdence{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.pcode{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.contenttext3{
+    display: flex;
+}
+.emailstyle{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.cttext{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.contenttext3{
+    display: flex;
+}
+.pwd{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.cpwd{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.buttonstyle{
+    display: flex;
+}
+.btn{
+    padding-left: 10px;
+    padding-top: 15px;
+} 
+.login{
+    padding-top: 35px;
+    padding-left: 30px;
+}  
+h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Nexa Bold, Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #4d4751;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+    display: block;
+    width: 360px;
+    height: 55px;
+    background-color: #fff;
+    border: 1px solid #d2d1d3;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #6504b5;
+    font-size: 14px;
+    line-height: normal;
+}
+
+button[type="submit"] {
+    width: 360px;
+   margin-top: 10px;
+   border: none;
+border-radius: 10px;
+    cursor: pointer;
+background-color: #6504B5;
+   font: 14px "Nexa Heavy", arial, helvetica, sans-serif;
+   color:white;
+   Padding: 11px 30px;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #6504B5;
+}
+
+a {
+    color: #6504B5;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.tools{
+    display: flex;
+    padding-left: 500px;
+    padding-bottom:50px;
+    height: 1px;
+        color: #fff;
+        font-size: 14px;
+       text-decoration: none;
+       background: #fff;
+      
+
+}
+.sclass{
+    color: black;
+    padding-right: 10px;
+}
+
+.flink{
+    background: #fff;
+    color: #1778f2;
+    padding-right: 10px;
+    }
+.glink{
+     background: #fff;
+    color: #ea4335;
+}
+    
+
+
+/* /footer stying/ */
+
+
+.footpanel1{
+    height: 45px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footpanel2{
+    background-color: #6504B5;
+    color: white;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+}
+ul{
+    margin-top: 20px;
+}
+ul p{
+    font-weight: bolder
+}
+.footpanel3{
+    background-color:rgb(56, 22, 94);
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}

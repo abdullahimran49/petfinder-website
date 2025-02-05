@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="petfinderlogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Petfinder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="nav-logo"><a href="index.html"><div class="logo" ></div></a></div>
+        <div class="navtext-1"><p><b>ALL ABOUT PETS</b></p></div>
+        <div class="arrow"><i class="fa-solid fa-chevron-down"></i></div>
+        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+        <div class="navtext-2"><p><a style="color:#6504B5 ;" href="signup.html">Sign Up</a></p></div>
+    </div>
+    <div id="panel">
+            <div ><p>ADOPT OR GET INVLOVED</p></div>
+            <div><a  href="dogs.html"><p>DOGS & PUPPIES</p></a></div>
+            <div><a  href="cats.html"><p>CATS & KITTENS</p></a></div>
+            <div><p>OTHER TYPES OF PETS</p></div>
+    </div>
+    </header>
+
+    <div class="hero-section">
+        <div>
+            <input placeholder="Search Terrier, Kitten, etc." type="text" name="" id="searchbar">
+            <input placeholder="Enter City,State, or ZIP" type="text" name="" id="searchbar2">
+            <a class="searchicon" href="#"><i class="fa-solid fa-magnifying-glass"></a></i>
+            <p class="herotext1">Find your new best friend.</p>
+            <p class="herotext2">Browse pets from our network of over 11,500 shelters and rescues.</p>
+        </div>
+        
+    </div>    
+    <div class="heroline"></div>
+    <div class="contentbg"><p class="contentText ">Pets Available for Adoption Nearby <i class="fa-solid fa-chevron-down"></i></p></div>
+
+    <div class="content">
+        <div class="box1 box">
+            <a href="#"><div class="box-img" style="background-image:url('theoo.png');"></div>
+            <p id="boxtext">Theo</p></a>
+        </div>
+           <a href="#"><div class="box2 box"><div class="box-img" style="background-image:url('cupcake.png');"></div>
+            <p id="boxtext">Cup Cake</p></a>
+        </div>
+            <a href="#"><div class="box3 box"><div class="box-img" style="background-image:url('nalani.png');"></div>
+            <p id="boxtext">Daisy</p></a>
+        </div>
+            <a href="#"><div class="box4 box"><div class="box-img" style="background-image:url('noel.png');"></div>
+            <p id="boxtext">Noel</p></a>
+        </div>
+        
+    </div>
+
+    <div class="content2-text"><h1>PLANNING TO ADOPT A PET?</h1></div>
+
+    <div class="content2">
+        <div class="content2box1 box2"><div class="box2-img" style="background-image: url('homee.png');"></div>
+        <pre><p id="cont2text">Make the adoption transition as smooth as <br>                         possible.</pre></p>
+        <button id="button">Learn More</button>
+        </div>
+        <div class="content2box2 box2"><div class="box2-img" style="background-image: url('covid.png');"></div>
+        <pre><p id="cont2text2">Learn how shelters/rescue groups are adapting. <br>      Find out how you can help dogs and cats.</pre></p>
+        <button id="button">Learn More</button>
+        </div>
+        <div class="content2box3 box2"><div class="box2-img" style="background-image: url('faq.png');"></div>
+        <pre><p id="cont2text">Get answers to all the you questions you haven't<br>                 thought of for your adoption.</pre></p>
+        <button id="button">Learn More</button>
+        </div>
+    </div>
+
+    <button id="back-to-top" onclick="backToTop()">Back to Top</button>
+
+    <script>
+        // Function to scroll back to the top of the page
+        function backToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+
+        // Show/hide back to top button based on scroll position
+        window.addEventListener('scroll', function() {
+            var backToTopButton = document.getElementById('back-to-top');
+            if (window.pageYOffset > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+    </script>
+
+    <footer>
+        <div class="footpanel1">Your Pet, Our Passion</div>
+        <div class="footpanel2">
+            <ul>
+                <p>RESOURCES</p>
+                <a href="#">FAQs</a>
+                <a href="#">Mobile App Download</a>
+                <a href="#">Partnerships</a>
+                <a href="#">News Center</a>
+                <a href="#"> Put Petfinder On Your Site</a>
+                <a href="#">For Developers</a>
+                <a href="#">Contact Us</a>
+            </ul>
+            <ul>
+                <p>ADOPT OR GET INVOLVED</p>
+                <a href="#">All Adopt or Get Involved</a>
+                <a href="#">Adopting Pets</a>
+                <a href="#">Animal Shelters & Rescues</a>
+                <a href="#">Other Types of Pets</a>
+            </ul>
+            <ul>
+                <p>ABOUT DOGS & PUPPIES</p>
+                <a href="#">All About Dogs & Puppies</a>
+                <a href="#">Dog Adoption</a>
+                <a href="#">Dog Breeds</a>
+                <a href="#">Feeding Your Dog</a>
+                <a href="#">Dog Behavior</a>
+                <a href="#">Dog Health & Wellness</a>
+                <a href="#">Dog Training</a>
+                <a href="#">Other Dog Information</a>
+            </ul>
+            <ul>
+                <p>ABOUT CATS & KITTENS</p>
+                <a href="#">All About Cats & Kittens</a>
+                <a href="#">Cat Adoption</a>
+                <a href="#">Cat Breeds</a>
+                <a href="#">Feeding Your Cat</a>
+                <a href="#">Cat Behavior</a>
+                <a href="#">Cat Health & Wellness</a>
+                <a href="#">Cat Training</a>
+                <a href="#">Other Cat Information</a>
+            </ul>
+        </div>
+            <div class="footpanel3">
+    <pre><p style="margin-left: 50px;">©2023 Petfinder.com   All trademarks are owned by Société des Produits Nestlé S.A., or used with permission.</pre></p>
+        <i style="margin-left: 300px;" class="fa-brands fa-facebook"></i>
+        <i style="margin-left: 25px;" class="fa-brands fa-twitter"></i>
+        <i style="margin-left: 25px;" class="fa-brands fa-instagram"></i>
+        <i style="margin-left: 25px;" class="fa-brands fa-youtube"></i>
+            </div>
+    </footer>
+</body>
+</html>
